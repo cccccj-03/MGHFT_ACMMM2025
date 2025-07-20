@@ -1,4 +1,4 @@
-# <p align="center">MGHFT: Multi-Granularity Hierarchical Fusion Transformer for Cross-Modal Sticker Emotion Recognition, Accepted by ACM MM 2025 </p>
+# <p align="center"> [ACM MM 2025] MGHFT: Multi-Granularity Hierarchical Fusion Transformer for Cross-Modal Sticker Emotion Recognition, </p>
 
 This is the official repository of our ACM Multimedia 2025 Work in Pytorch. Our conference paper is now released at XXXX.
 
@@ -8,7 +8,7 @@ Although pre-trained visual models with text have demonstrated strong capabiliti
 ## Intuition
 On the one hand, multimodal foundation models such as LLaVA and GPT-4o excel in image-based generation tasks, leveraging their powerful visual-textual reasoning abilities and extensive background knowledge. On the other hand, vision-language models (VLMs) like CLIP and BLIP, which are pre-trained through image-text alignment, have shown competitive performance in image classification tasks. Robust visual understanding provides a crucial foundation for the SER task, but it alone is not sufficient. More rich information about stickers from multi-views like style and details is also important. The results of the experiment presented in the Figure below also prove this point. As illustrated in the Figure, experimental results on the SER30K dataset reveal a significant performance gap between these state-of-the-art VLMs and our proposed method in the sticker emotion recognition task. This discrepancy highlights an important insight.  Accurately perceiving and interpreting subtle, implicit emotional cues like intention remains a significant challenge. Therefore, achieving effective emotion recognition in stickers requires a more comprehensive integration of contextual knowledge, emotional reasoning, and multi-view understanding.
 
-![image](vlm 8.pdf)
+![image](vlm.png)
 
 ## Innovations:
 
@@ -18,7 +18,7 @@ We design a hierarchical fusion mechanism that injects multi-view textual semant
 
 We propose a novel text-guided multimodal fusion attention mechanism that leverages multi-view textual descriptions to guide the integration of textual and visual modalities, enhancing the model’s understanding of both the contextual knowledge and visual content of stickers.
 
-![image](framework.pdf)
+![image](MGHFT.png)
 
 ## SER30K dataset
 
