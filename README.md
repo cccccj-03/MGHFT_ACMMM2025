@@ -8,7 +8,7 @@ Although pre-trained visual models with text have demonstrated strong capabiliti
 ## Intuition
 On the one hand, multimodal foundation models such as LLaVA and GPT-4o excel in image-based generation tasks, leveraging their powerful visual-textual reasoning abilities and extensive background knowledge. On the other hand, vision-language models (VLMs) like CLIP and BLIP, which are pre-trained through image-text alignment, have shown competitive performance in image classification tasks. Robust visual understanding provides a crucial foundation for the SER task, but it alone is not sufficient. More rich information about stickers from multi-views like style and details is also important. The results of the experiment presented in the Figure below also prove this point. As illustrated in the Figure, experimental results on the SER30K dataset reveal a significant performance gap between these state-of-the-art VLMs and our proposed method in the sticker emotion recognition task. This discrepancy highlights an important insight.  Accurately perceiving and interpreting subtle, implicit emotional cues like intention remains a significant challenge. Therefore, achieving effective emotion recognition in stickers requires a more comprehensive integration of contextual knowledge, emotional reasoning, and multi-view understanding.
 
-![image](vlm.png)
+![image](VLM.png)
 
 ## Innovations:
 
