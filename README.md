@@ -1,5 +1,3 @@
-# MGHFT_Multi_Granularity_H_Supplementary-Material
-
 # <p align="center">MGHFT: Multi-Granularity Hierarchical Fusion Transformer for Cross-Modal Sticker Emotion Recognition, Accepted by ACM MM 2025 </p>
 
 This is the official repository of our ACM Multimedia 2025 Work in Pytorch. Our conference paper is now released at XXXX.
